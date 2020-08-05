@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeede7;
+}
+
+:root {
+  --gray: #868b8e;
+  --charcoal: #303437;
+  --ivory: #eeede7;
+  --red: #ff5c4d;
+  --mimosa: #ffcd58c7;
+  --chartreuse: #DAD870;
+}
