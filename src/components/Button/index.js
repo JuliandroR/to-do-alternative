@@ -11,6 +11,11 @@ export const Botao = styled.button`
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
+
+  &:hover{
+    color: var(--red);
+    background-color: var(--charcoal);
+  }
 `;
 
 function Button(props) {
